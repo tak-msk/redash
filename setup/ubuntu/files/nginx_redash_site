@@ -6,7 +6,7 @@ server {
 
   server_tokens off;
 
-  listen 80 default;
+  listen 8080 default;
 
   access_log /var/log/nginx/rd.access.log;
 
