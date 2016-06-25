@@ -12,7 +12,7 @@ LATEST_URL="https://github.com/getredash/redash/releases/download/v${REDASH_VERS
 VERSION_DIR="/opt/redash/redash.${REDASH_VERSION}"
 REDASH_TARBALL=/tmp/redash.tar.gz
 
-FILES_BASE_URL=https://raw.githubusercontent.com/getredash/redash/${REDASH_BRANCH}/setup/ubuntu/files/
+FILES_BASE_URL=https://raw.githubusercontent.com/tak-msk/redash/${REDASH_BRANCH}/setup/ubuntu/files/
 
 # Verify running as root:
 if [ "$(id -u)" != "0" ]; then
